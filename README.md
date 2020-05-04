@@ -1,5 +1,7 @@
 # git_test
 
+Remember: This is alll just a test.
+
 # Welcome to my github page! 
 
 I am not a professional developer (yet). I am just learning the basics of Web Development via the Odin Project (which is pretty awesome and recommended --I get not sales-bonuses).
