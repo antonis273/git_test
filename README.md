@@ -6,12 +6,12 @@ I am not a professional developer (yet). I am just learning the basics of Web De
 
 This repository will primarily be composed of the exercises that I will do while learning the basics.
 
-# The Evim that men do lives on....
+# The Evim that men do
 
-Many people (nobody) ask me which text editor I use. I use VS-Code for editing and Emacs org-mode for creative thinking. And only pornhub for entertaintment that is pretentiously socially unacceptable. And github to push the communist propaganda. LMAO hahaha. And every opportunity to be self-referential narcisist.
+Many people (nobody) ask me which text editor I use. I use VS-Code for editing and Emacs org-mode for creative thinking. 
 
 # Coding for Therapy
 
-This seems like a great topic to explore. I will explore and if I find something interesting I will add, commit and push my sunbro.
+This seems like a great topic to explore. I will explore and if I find something interesting I will add, commit and push.
 
-Love, namaste.
+Lots of ove!
