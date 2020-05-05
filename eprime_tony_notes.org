@@ -1,0 +1,64 @@
+#+TITLE: E-Prime Notes by Antonis: The most important thing when you design an experiment is to SAVE as frequently as possible
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+* Types of E-prime files
+  - _E-Studio_ to design/edit experiment
+  - _E-Run_ to "run" experiment (you must RUN the experiment FIRST through
+    the "run" button in E-studio in order to create the E-run file AND to
+    APPLY CHANGES in the E-Run you made in the design of the experiment).
+  - _E-dat_ files for each participant, after they have been created. 
+    SEE ALSO: "Arrange collums" button to remove uncecessary info from E-dat files. (E-prime creates also .txt files for each participant which are not really readable)
+
+* Sessionproc (= procedure)
+    A continuous line in which e-objects (= all things that will appear on screen sequentially) are placed one after another.
+  Frequently used objects (put in Sessionproc via drag & drop from menu on the left):
+** TextDisplay
+    e.g. Welcome to the Psych Labs, Instructions, Fixation-cross, "PRESS SPACE TO BEGIN"* etc.
+** ImageDisplay
+You can create multiple trials by clicking on its properties and placing
+the relevant list/attribute in the filename (e.g. [pics] or [pics1] according to how
+you have named it
+    - use ALWAYS .bmp file format
+    - and ALWAYS put image files in the SAME FOLDER with the E-prime (E-studio) file.
+** MovieDisplay 
+   (used for Videos (not so frequent; use youtube/vlc)
+  
+** Lists (put multiple items (TRIALS!) together)
+
+    - Procedure: Create one by puting a name on it (e.g. proc1)
+
+    - Attribute: Add atribute (e.g. Text or Images) /OR/ correct answers = named "Correct" for each trial; e.g. 0, 1 etc.)
+
+    - Levels (multiple): Add them accordingly for multiple trials (e.g. 29 new leves + 1 already existing = 30).
+
+    You can also change the sequence of presentation via: PROPERTIES BUTTON -> "selection" tab -> change order (sequential OR random etc.) 
+ 
+You can (and should) rename each object name accordingly (e.g. "Instructions"/ "Fixation" etc.)
+
+** Slide
+    1) Allows many options/features (e.g. put multiple objects, add Likert scales or even add a "click" button that will appear on screen.
+       - not so frequently used
+    2) To add an already created procedure inside an object (e.g. on a TextDisplay) simply type "[" (left square bracket) to see  a mini-list of the available procedures that you have created. If the mini-list does not work or you are sure which procedure you want to put there, simply put its name inside the brackets.
+       - can be used in order to produce multiple trials.
+	 
+* Οbject duration / keyboard input / logging
+  Upper left area of object-window:  click on PROPERTIES BUTTON (orange small hand at top left of the window)
+** Duration/Input
+*** Duration
+    - Set miliseconds (1000ms = 1 sec) OR
+    - Set to " Infinite" (to wait for input)
+    - Time limit = set it MANUALLY to be the exact same number as duration (to avoid E-prime crashing!)
+*** Input
+- Add device (keyboard/mouse)
+  * Keyboard: You can select which buttons to use via the tab "Allowable".Default = {ANY} . Can be changed for example 
+  to* {SPACE}. Just type 123 for numbers (or abc for letters) without brackets. See also E-studio: "Help" tab for keywords.
+    + If by any chance you collect demographics via E-prime, you can set the limit of responses to specific digits (e.g. for Age max = 2 digits and then it moves to the next screen) 
+
+*** Correct
+    You can place inside { } the name of the Attribute (you have named it) that corresponds to the list
+ with the correct responses for each trial. (e.g. {correct})
+		
+** Logging
+   - Frequently used: 
+     * Actual Response (REP)
+     * Reaction Time (RT) 
+     * Correct response (CREP; this must be defined accordingly with a List-attribute)
